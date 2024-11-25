@@ -10,14 +10,17 @@ body{
     display:flex;
     justify-content: space-between;
     text-align: center;
-    margin:0 20px 0 20px;
+    padding:0 20px 0 20px;
+    border-bottom: 1px solid lightgray;
 }
 .header-left{
     display:flex;
     gap:20px;
 }
 .find{
+    font-weight: 600;
     display:flex;
+    gap:4px;
 }
 
 .header-centre{
@@ -27,6 +30,10 @@ body{
 .header-left-option{
     display:flex;
     gap:20px;
+}
+
+.header-left-option p{
+    font-weight: 500;
 }
 .header-right{
     display:flex;
@@ -39,6 +46,7 @@ body{
     background-color: rgb(238, 235, 235);
     border-radius: 40px;
     padding:8px 15px;
+    outline:none;
 }
 
 .header-right-login{
@@ -55,8 +63,13 @@ body{
 
  /* Content section */
 
+ .nav-img{
+    height:50px;
+    width:50px;
+
+ }
  .content{
-    width:45vw;
+    width:900px;
     margin: 50px auto;
 }
 
@@ -71,12 +84,17 @@ body{
 .content-nav-left{
     display: flex;
     object-fit: cover;
+    display:flex;
+    gap:6px;
+    align-items: center;
 }
 
 
 
 .content-nav-img{
-    width:50%;
+    width:50px;
+    height:50px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -104,7 +122,7 @@ body{
 
  /* Content-- post */
 .content-post-container{
-    width:100%;
+    width:900px;
     height:75vh;
     margin:15px auto;
     border-radius: 7px;
@@ -274,7 +292,7 @@ body{
  /* Lesson Cards */
 
 .lesson-card{
-    width:45vw;
+    width:900px;
     border-radius: 10px;
 }
 
@@ -287,7 +305,7 @@ body{
  /* Card-3 */
 
 .card3{
-    width:45vw;
+    width:900px;
     border-radius: 10px;
 
 }
@@ -303,4 +321,22 @@ body{
 .xzz{
     margin: 30px auto;
     width:600px;
+}
+
+
+.cnl{
+    margin:0;
+    padding:0;
+}
+
+.cnl-p1{
+    padding: 0;
+    margin:0;
+    font-weight:600;
+}
+
+.cnl-p2{
+    margin:0;
+    padding:0;
+    font-size: smaller;
 }
